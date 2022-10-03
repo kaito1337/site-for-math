@@ -1,0 +1,19 @@
+header{
+    margin-bottom: 5vw;
+    background-color:#DDEBFF;
+    font-weight: 500;
+}
+.back{
+    background-color:#DDEBFF;
+    padding: 1.5vw;
+    line-height: 2.5vw;
+    border-radius: 3vw;
+    font-size: 1.5vw;
+}
+
+.kek{
+    padding-bottom: 5vw;
+}
+.img{
+    width: 100%;
+}
