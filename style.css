@@ -3,10 +3,10 @@ header{
     font-weight: 500;
 }
 .back{
-    background-color:#DDEBFF;
+    background-color:rgb(221, 235, 255);
     padding: 1.5vw;
     line-height: 2.5vw;
-    border-radius: 3vw;
+    border-radius: 2vw;
     font-size: 1.5vw;
 }
 
