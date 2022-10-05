@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комбинаторика</title>
     <link href="./style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>Бином Ньютона</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
-<body>
-  <header class="d-flex justify-content-center py-3" style="margin-bottom: 3vw">
-    <!-- <ul class="nav nav-pills">
-    </ul> -->
-    <nav class="navbar navbar-expand-lg navbar-dark back" aria-label="Tenth navbar example">
-      <div class="container-fluid">
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="./index.html" class="nav-link">Главная</a></li>
-            <li class="nav-item"><a href="./combinatorika.html" class="nav-link">Комбинаторика</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Бином Ньютона</a></li>
-            <li class="nav-item"><a href="./triangle.html" class="nav-link">Треугольник Паскаля</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header> 
 
-    <div class="container kek">
-      <div class="row">
-        <div class="col-12 back" style="margin-top: 3vh;">
-          <h2 class="text-center ">Бином Ньютона</h2>
-          <p class="text-start">Бином Ньютона — формула для разложения на отдельные слагаемые целой неотрицательной степени суммы двух переменных, имеющая вид </p>
-          <img src="./img/binom1.png" class="img-fluid" style="border-radius: 2vw; display:block; margin: 0 auto" alt="Комбинаторика">
-          <p class="text-start">Где <img src="./img/binom2.png" class="img-fluid"> — биномиальные коэффициенты, n — неотрицательное целое число. Это число способов, которыми можно выбрать k элементов среди n элементов, если порядок выбора не имеет значения.</p>
-          <p class="text-start">В таком виде эта формула была известна ещё индийским и персидским математикам, Ньютон вывел формулу бинома для более общего случая, когда показатель степени — произвольное действительное число (позднее она была распространена и на комплексные числа). В общем случае бином представляет собой бесконечный ряд:</p>
-          <img src="./img/binom3.png" class="img-fluid">
-          <p class="text-start">Простыми словами Бином Ньютона – это формула, которая помогает посчитать сумму двух чисел, возведенную в какую-то степень.</p>            
+<body>
+    <header class="d-flex justify-content-center py-3" style="margin-bottom: 3vw">
+        <!-- <ul class="nav nav-pills">
+        </ul> -->
+        <nav class="navbar navbar-expand-lg navbar-dark back" aria-label="Tenth navbar example">
+            <div class="container-fluid">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="./index.html" class="nav-link"
+                                aria-current="page">Главная</a></li>
+                        <li class="nav-item"><a href="./combinatorika.html" class="nav-link">Комбинаторика</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link active">Бином Ньютона</a></li>
+                        <li class="nav-item"><a href="./triangle.html" class="nav-link">Треугольник Паскаля</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container kek">
+            <div class="row">
+                <div class="col-12 back" style="margin-top: 3vh;">
+                    <h2 class="text-center ">Бином Ньютона</h2>
+                    <p class="text-start">Бином Ньютона — формула для разложения на отдельные слагаемые целой
+                        неотрицательной степени суммы двух переменных, имеющая вид </p>
+                    <img src="./img/binom1.png" class="img-fluid"
+                        style="border-radius: 2vw; display:block; margin: 0 auto" alt="Комбинаторика">
+                    <p class="text-start">Где <img src="./img/binom2.png" class="img-fluid"> — биномиальные
+                        коэффициенты, n — неотрицательное целое число. Это число способов, которыми можно выбрать k
+                        элементов среди n элементов, если порядок выбора не имеет значения.</p>
+                    <p class="text-start">В таком виде эта формула была известна ещё индийским и персидским математикам,
+                        Ньютон вывел формулу бинома для более общего случая, когда показатель степени — произвольное
+                        действительное число (позднее она была распространена и на комплексные числа). В общем случае
+                        бином представляет собой бесконечный ряд:</p>
+                    <img src="./img/binom3.png" class="img-fluid">
+                    <p class="text-start">Простыми словами Бином Ньютона – это формула, которая помогает посчитать сумму
+                        двух чисел, возведенную в какую-то степень.</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
