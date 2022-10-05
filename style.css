@@ -16,3 +16,9 @@ header{
 .img{
     width: 100%;
 }
+
+@media (max-width: 900px){
+    .back{
+        font-size: 21px;
+    }
+}
